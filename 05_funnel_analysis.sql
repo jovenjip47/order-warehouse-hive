@@ -1,6 +1,5 @@
 -- 项目B：用户行为漏斗分析
--- 计算浏览→加购→支付各环节转化率
-;
+-- 假设已经有 ods_user_actions 表和数据
 WITH user_funnel AS (
     SELECT 
         user_id,
